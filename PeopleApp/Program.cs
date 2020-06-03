@@ -6,7 +6,6 @@ namespace Packt.Shared
     {
         static void Main(string[] args)
         {
-            var sam = new Person(){Name = "Sam",DateOfBirth = new DateTime(1992,10,16)};
             
         }
     }
