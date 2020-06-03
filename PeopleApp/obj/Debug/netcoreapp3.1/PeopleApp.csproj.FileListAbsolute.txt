@@ -1,0 +1,14 @@
+D:\Chapter06\PeopleApp\bin\Debug\netcoreapp3.1\PeopleApp.exe
+D:\Chapter06\PeopleApp\bin\Debug\netcoreapp3.1\PeopleApp.deps.json
+D:\Chapter06\PeopleApp\bin\Debug\netcoreapp3.1\PeopleApp.runtimeconfig.json
+D:\Chapter06\PeopleApp\bin\Debug\netcoreapp3.1\PeopleApp.runtimeconfig.dev.json
+D:\Chapter06\PeopleApp\bin\Debug\netcoreapp3.1\PeopleApp.dll
+D:\Chapter06\PeopleApp\bin\Debug\netcoreapp3.1\PeopleApp.pdb
+D:\Chapter06\PeopleApp\bin\Debug\netcoreapp3.1\PacktLibrary.dll
+D:\Chapter06\PeopleApp\bin\Debug\netcoreapp3.1\PacktLibrary.pdb
+D:\Chapter06\PeopleApp\obj\Debug\netcoreapp3.1\PeopleApp.csprojAssemblyReference.cache
+D:\Chapter06\PeopleApp\obj\Debug\netcoreapp3.1\PeopleApp.AssemblyInfoInputs.cache
+D:\Chapter06\PeopleApp\obj\Debug\netcoreapp3.1\PeopleApp.AssemblyInfo.cs
+D:\Chapter06\PeopleApp\obj\Debug\netcoreapp3.1\PeopleApp.csproj.CopyComplete
+D:\Chapter06\PeopleApp\obj\Debug\netcoreapp3.1\PeopleApp.dll
+D:\Chapter06\PeopleApp\obj\Debug\netcoreapp3.1\PeopleApp.pdb
