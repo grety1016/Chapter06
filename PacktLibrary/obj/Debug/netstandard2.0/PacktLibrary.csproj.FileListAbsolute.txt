@@ -6,3 +6,11 @@ D:\Chapter06\PacktLibrary\obj\Debug\netstandard2.0\PacktLibrary.AssemblyInfoInpu
 D:\Chapter06\PacktLibrary\obj\Debug\netstandard2.0\PacktLibrary.AssemblyInfo.cs
 D:\Chapter06\PacktLibrary\obj\Debug\netstandard2.0\PacktLibrary.dll
 D:\Chapter06\PacktLibrary\obj\Debug\netstandard2.0\PacktLibrary.pdb
+C:\Users\Grety\Desktop\Chapter06\PacktLibrary\bin\Debug\netstandard2.0\PacktLibrary.deps.json
+C:\Users\Grety\Desktop\Chapter06\PacktLibrary\bin\Debug\netstandard2.0\PacktLibrary.dll
+C:\Users\Grety\Desktop\Chapter06\PacktLibrary\bin\Debug\netstandard2.0\PacktLibrary.pdb
+C:\Users\Grety\Desktop\Chapter06\PacktLibrary\obj\Debug\netstandard2.0\PacktLibrary.csprojAssemblyReference.cache
+C:\Users\Grety\Desktop\Chapter06\PacktLibrary\obj\Debug\netstandard2.0\PacktLibrary.AssemblyInfoInputs.cache
+C:\Users\Grety\Desktop\Chapter06\PacktLibrary\obj\Debug\netstandard2.0\PacktLibrary.AssemblyInfo.cs
+C:\Users\Grety\Desktop\Chapter06\PacktLibrary\obj\Debug\netstandard2.0\PacktLibrary.dll
+C:\Users\Grety\Desktop\Chapter06\PacktLibrary\obj\Debug\netstandard2.0\PacktLibrary.pdb
