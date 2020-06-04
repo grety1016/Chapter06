@@ -1,11 +1,13 @@
 ﻿using System;
+using Packt.Shared;
 using System.Collections.Generic;
 using static System.Console;
 
 namespace Packt.Shared
 {
+    delegate int DelegateWithMatchingSignature(string s) ; 
     class Program
-    {
+    {       
         static void Main(string[] args)
         {
             var harry = new Person { Name = "Harry"};
@@ -35,6 +37,16 @@ namespace Packt.Shared
             //Factorial caculations
             var Factorial1 = new Person();            
             WriteLine(Person.Factorial(10));
+
+            //call WantToMethod 
+            Person p1 = new Person();
+            int answer = p1.MethodIWantToCall("Frog");           
+
+            // create a delegate instance that points to the method
+            var d = new DelegateWithMatchingSignature(p1.MethodIWantToCall) ;
+            // call the delegate, which calls the method
+            int answer2 = d("Frog"); 
+            WriteLine(answer.ToString());
 
                         
         }

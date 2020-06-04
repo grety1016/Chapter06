@@ -4,6 +4,7 @@ using static System.Console;
 
 namespace Packt.Shared
 {
+      
     public class Person    
     {
         //fields
@@ -49,13 +50,19 @@ namespace Packt.Shared
                 throw new ArgumentException($"{nameof(number) } cannot be less than zero. ") ;
             }
             return localFactorial(number) ;
-            
+
             int localFactorial(int localNumber) // local function
             {
                 if (localNumber < 1) return 1;
                 return localNumber * localFactorial(localNumber - 1) ;
             }
         }
+
+        //dalegate  
+        public int MethodIWantToCall(string input)
+        {
+            return input. Length; // it doesn' t matter what this does
+        } 
         
     }
 }
