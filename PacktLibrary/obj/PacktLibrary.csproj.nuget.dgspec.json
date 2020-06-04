@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Grety\\Desktop\\Chapter06\\PacktLibrary\\PacktLibrary.csproj": {}
+    "D:\\Chapter06\\PacktLibrary\\PacktLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Grety\\Desktop\\Chapter06\\PacktLibrary\\PacktLibrary.csproj": {
+    "D:\\Chapter06\\PacktLibrary\\PacktLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Grety\\Desktop\\Chapter06\\PacktLibrary\\PacktLibrary.csproj",
+        "projectUniqueName": "D:\\Chapter06\\PacktLibrary\\PacktLibrary.csproj",
         "projectName": "PacktLibrary",
-        "projectPath": "C:\\Users\\Grety\\Desktop\\Chapter06\\PacktLibrary\\PacktLibrary.csproj",
-        "packagesPath": "C:\\Users\\Grety\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Grety\\Desktop\\Chapter06\\PacktLibrary\\obj\\",
+        "projectPath": "D:\\Chapter06\\PacktLibrary\\PacktLibrary.csproj",
+        "packagesPath": "C:\\Users\\sylar\\.nuget\\packages\\",
+        "outputPath": "D:\\Chapter06\\PacktLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Grety\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sylar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
