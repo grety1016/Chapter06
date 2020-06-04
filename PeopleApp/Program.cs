@@ -5,9 +5,18 @@ using static System.Console;
 
 namespace Packt.Shared
 {
-    delegate int DelegateWithMatchingSignature(string s) ; 
+    
     class Program
-    {       
+    {   //delegate definition
+         delegate int DelegateWithMatchingSignature(string s);   
+
+         private static void Harry_Shout(object sender, EventArgs e)
+        {
+            Person p = (Person)sender;
+            WriteLine($"{p.Name} is this angry: {p.AngerLevel}.") ;
+        }   
+        
+             
         static void Main(string[] args)
         {
             var harry = new Person { Name = "Harry"};
@@ -47,6 +56,12 @@ namespace Packt.Shared
             // call the delegate, which calls the method
             int answer2 = d("Frog"); 
             WriteLine(answer.ToString());
+            
+            harry.Shout = Harry_Shout;
+            harry. Poke();
+            harry. Poke();
+            harry. Poke();
+            harry. Poke();
 
                         
         }

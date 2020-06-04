@@ -4,15 +4,34 @@ using static System.Console;
 
 namespace Packt.Shared
 {
-      
+           
     public class Person    
     {
+        //event delegate field
+        public  EventHandler Shout;
+        // data field
+        public int AngerLevel;
         //fields
         public string Name;
         public DateTime DateOfBirth;
         public List<Person> Children = new List<Person>();
 
         //methods
+        
+        public void Poke()
+        {
+            AngerLevel++;
+            if (AngerLevel >= 3)
+            {
+                // if something is listening. . .
+                if (Shout != null) //equate  Shout?. Invoke(this, EventArgs. Empty) ;
+                {
+                    // . . . then call the delegate
+                    Shout(this,EventArgs.Empty) ;
+                }
+            }
+        }
+
         public void WriteToConsole()
         {
             WriteLine($"{Name} was born on a {DateOfBirth:dddd}.");
@@ -61,7 +80,7 @@ namespace Packt.Shared
         //dalegate  
         public int MethodIWantToCall(string input)
         {
-            return input. Length; // it doesn' t matter what this does
+            return input.Length; // it doesn' t matter what this does
         } 
         
     }
