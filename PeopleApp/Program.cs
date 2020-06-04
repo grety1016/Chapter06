@@ -19,6 +19,23 @@ namespace Packt.Shared
             WriteLine($"{mary.Name} has {mary.Children.Count} children.");
             WriteLine($"{jill.Name} has {jill.Children.Count} children.");
             WriteLine(format: "{0}'s first child is named \"{1}\". ",arg0: harry.Name,arg1: harry.Children[0].Name);
+
+
+            //concatenating string
+            string s1 = "Hello,";
+            string s2 = "World!";
+            string s3 = string.Concat(s1,s2);
+            WriteLine(s3);
+
+
+            //call overload  operator * method
+            var baby3 = harry * mary;
+            WriteLine(baby3.Name);
+
+            //Factorial caculations
+            var Factorial1 = new Person();            
+            WriteLine(Person.Factorial(10));
+
                         
         }
     }
