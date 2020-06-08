@@ -4,11 +4,31 @@ using static System.Console;
 
 namespace Packt.Shared
 {
-           
-    public class Person    
+
+    public class PersonComparer : IComparer<Person>
+    {
+        public int Compare(Person x, Person y)
+        {
+             // Compare the Name lengths. . .
+            int result = x.Name.Length.CompareTo(y.Name.Length) ;
+            /// . . . if they are equal. . .
+            if (result == 0)
+            {
+                // . . . then compare by the Names. . .
+                 return x.Name.CompareTo(y.Name);
+            }
+            else
+            {
+                // . . . otherwise compare by the lengths.
+                return result;
+            }
+        }
+    }
+
+    public class Person:IComparable<Person> 
     {
         //event delegate field
-        public  EventHandler Shout;
+        public event  EventHandler Shout;
         // data field
         public int AngerLevel;
         //fields
@@ -17,7 +37,9 @@ namespace Packt.Shared
         public List<Person> Children = new List<Person>();
 
         //methods
-        
+
+      
+       
         public void Poke()
         {
             AngerLevel++;
@@ -81,7 +103,11 @@ namespace Packt.Shared
         public int MethodIWantToCall(string input)
         {
             return input.Length; // it doesn' t matter what this does
-        } 
-        
+        }
+
+        public int CompareTo(Person other)
+        {
+            return Name.CompareTo(other.Name);
+        }
     }
 }

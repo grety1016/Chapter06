@@ -57,13 +57,47 @@ namespace Packt.Shared
             int answer2 = d("Frog"); 
             WriteLine(answer.ToString());
             
-            harry.Shout = Harry_Shout;
+            harry.Shout += Harry_Shout;
             harry. Poke();
             harry. Poke();
             harry. Poke();
             harry. Poke();
 
-                        
+
+            //IComparable
+            Person[] people = 
+            {           
+                new Person{Name = "Adam"},
+                new Person{Name = "Richard"},
+                new Person{Name = "Jenny"},
+                new Person{Name = "Simon"}
+            };
+
+            WriteLine("Inital list of people array:");
+
+            foreach(var person in people)
+            {
+                WriteLine($"{person.Name}");
+            }
+
+            WriteLine("Use Person' s IComparable implementation to sort:");
+            Array.Sort(people);
+
+            foreach(var person in people)
+            {
+                WriteLine($"{person.Name}");
+            }
+
+
+            WriteLine("Use PersonComparer' s IComparer implementation to sort: ") ;
+            Array.Sort(people, new PersonComparer());
+            foreach (var person in people)
+            {
+                WriteLine($"{person.Name}") ;
+            }
+
+
+                                    
         }
     }
 }
