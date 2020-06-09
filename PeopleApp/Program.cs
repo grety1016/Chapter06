@@ -90,7 +90,7 @@ namespace Packt.Shared
 
 
             WriteLine("Use PersonComparer' s IComparer implementation to sort: ") ;
-            Array.Sort(people, new PersonComparer());
+            Array.Sort(people);
             foreach (var person in people)
             {
                 WriteLine($"{person.Name}") ;
@@ -102,6 +102,16 @@ namespace Packt.Shared
             player1.stop();
             player2.Stop();
             player3.StopPlay();
+
+            //object example
+            var t1 = new Thing();
+            t1.Data = 42 ;
+            WriteLine(t1.Process(42)); 
+
+            var t2 = new Thing();
+            t2.Data = "Apple" ;
+            WriteLine(t2.Process("Apple")); 
+
                                     
         }
     }
