@@ -5,6 +5,10 @@ namespace Packt.Shared
     {
         void Play();
         void Pause();
+        void Stop()
+        {
+            WriteLine("This is from interface!");
+        }
          
     }
 }

@@ -1,7 +1,7 @@
 using static System.Console;
 namespace Packt.Shared
 {
-    public class DvdPlayer:IPlayable
+    public class DvdPlayer:BasePlayer,IPlayable
     {
         public void Pause()
         {
@@ -10,6 +10,18 @@ namespace Packt.Shared
         public void Play()
         {
             WriteLine("DVD player is playing. ") ;
+        }
+
+        public void stop()
+        {
+            
+            WriteLine("This is a derived class");
+        }
+
+        public new void StopPlay()
+        {
+            base.StopPlay();
+            WriteLine("This is a overrride method");
         }
     }
 }

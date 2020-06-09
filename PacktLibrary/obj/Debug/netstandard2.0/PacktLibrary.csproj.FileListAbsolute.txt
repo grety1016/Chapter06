@@ -14,3 +14,4 @@ C:\Users\Grety\Desktop\Chapter06\PacktLibrary\obj\Debug\netstandard2.0\PacktLibr
 C:\Users\Grety\Desktop\Chapter06\PacktLibrary\obj\Debug\netstandard2.0\PacktLibrary.AssemblyInfo.cs
 C:\Users\Grety\Desktop\Chapter06\PacktLibrary\obj\Debug\netstandard2.0\PacktLibrary.dll
 C:\Users\Grety\Desktop\Chapter06\PacktLibrary\obj\Debug\netstandard2.0\PacktLibrary.pdb
+D:\Chapter06\PacktLibrary\obj\Debug\netstandard2.0\PacktLibrary.csproj.CoreCompileInputs.cache

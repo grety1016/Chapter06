@@ -96,7 +96,12 @@ namespace Packt.Shared
                 WriteLine($"{person.Name}") ;
             }
 
-
+            DvdPlayer player1 = new DvdPlayer();
+            IPlayable player2 = new DvdPlayer();
+            BasePlayer player3 = new DvdPlayer();
+            player1.stop();
+            player2.Stop();
+            player3.StopPlay();
                                     
         }
     }

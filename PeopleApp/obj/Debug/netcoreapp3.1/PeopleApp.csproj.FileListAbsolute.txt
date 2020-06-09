@@ -26,3 +26,5 @@ C:\Users\Grety\Desktop\Chapter06\PeopleApp\obj\Debug\netcoreapp3.1\PeopleApp.Ass
 C:\Users\Grety\Desktop\Chapter06\PeopleApp\obj\Debug\netcoreapp3.1\PeopleApp.csproj.CopyComplete
 C:\Users\Grety\Desktop\Chapter06\PeopleApp\obj\Debug\netcoreapp3.1\PeopleApp.dll
 C:\Users\Grety\Desktop\Chapter06\PeopleApp\obj\Debug\netcoreapp3.1\PeopleApp.pdb
+D:\Chapter06\PeopleApp\obj\Debug\netcoreapp3.1\PeopleApp.csproj.CoreCompileInputs.cache
+D:\Chapter06\PeopleApp\obj\Debug\netcoreapp3.1\PeopleApp.genruntimeconfig.cache
