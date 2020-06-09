@@ -1,7 +1,25 @@
+using System;
+using static System.Console;
+
 namespace Packt.Shared
 {
-    public class GenericThing
+    public class GenericThing<T> where T :IComparable
     {
+        public T Data = default;
+
+         public string Process(T input)
+        {
+            if (Data.CompareTo(input) == 0)
+            {
+                return "Data and input are the same";
+            }
+            else 
+            {
+                return "Data and input are not the same";
+            }
+
+        }
+
         
     }
 }

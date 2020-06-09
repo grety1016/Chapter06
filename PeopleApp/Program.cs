@@ -112,6 +112,13 @@ namespace Packt.Shared
             t2.Data = "Apple" ;
             WriteLine(t2.Process("Apple")); 
 
+            var gt1 = new GenericThing<int>() ;
+            gt1.Data = 42;
+            WriteLine($"GenericThing with an integer:{gt1.Process(42) }") ;
+            var gt2 = new GenericThing<string>() ;
+            gt2.Data = "apple";
+            WriteLine($"GenericThing with a string:{gt2.Process("apple") }") ;
+
                                     
         }
     }
