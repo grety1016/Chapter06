@@ -112,6 +112,7 @@ namespace Packt.Shared
             t2.Data = "Apple" ;
             WriteLine(t2.Process("Apple")); 
 
+            //generic types
             var gt1 = new GenericThing<int>() ;
             gt1.Data = 42;
             WriteLine($"GenericThing with an integer:{gt1.Process(42) }") ;
@@ -119,7 +120,52 @@ namespace Packt.Shared
             gt2.Data = "apple";
             WriteLine($"GenericThing with a string:{gt2.Process("apple") }") ;
 
+
+            //generic method
+            string number1 = "4";
+            WriteLine("{0} squared is {1}",
+            arg0: number1,
+            arg1: Squarer.Square<string>(number1));
+            byte number2 = 3;
+            WriteLine("{0} squared is {1}",
+            arg0: number2,
+            arg1: Squarer.Square<int>(number2));
+
+
+            //with struct 
+            var vec1 = new DisplacementVector(-2,5);
+            var vec2 = new DisplacementVector(3,7);
+            var vec3 = vec1 + vec2;
+            WriteLine($"({vec1.X}, {vec1.Y}) + ({vec2.X}, {vec2.Y}) =({vec3.X}, {vec3.Y}) ") ;
+           
                                     
+            Animal a = new Animal() ;
+            try
+            {
+                // code that uses the Animal instance
+            }
+            finally
+            {
+                if (a != null) a.Dispose() ;
+            }
+
+            //inheriting class
+            Person john2 = new Employee()
+            {
+                Name = "john jones2",
+                DateOfBirth = new DateTime(1997-10-16)
+            };
+            Employee john = new Employee
+            {
+                Name = "john jones",
+                DateOfBirth = new DateTime(1997-10-16)
+            };
+            
+            john.WriteToConsole();
+            john2.WriteToConsole();
+
+            WriteLine(john.ToString() ) ;
+
         }
     }
 }

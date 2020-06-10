@@ -55,7 +55,7 @@ namespace Packt.Shared
             }
         }
 
-        public void WriteToConsole()
+        public virtual void WriteToConsole()
         {
             WriteLine($"{Name} was born on a {DateOfBirth:dddd}.");
         }
@@ -109,6 +109,11 @@ namespace Packt.Shared
         public int CompareTo(Person other)
         {
             return Name.CompareTo(other.Name);
+        }
+
+        public override string ToString()
+        {
+            return $"{Name} is a {base.ToString()}";
         }
     }
 }
