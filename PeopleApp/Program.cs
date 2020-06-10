@@ -170,6 +170,29 @@ namespace Packt.Shared
                 Employee explicitAlice = (Employee) aliceInPerson;
                 // safely do something with explicitAlice
             }
+            Person e1 = new Person();
+
+            e1.DateOfBirth = new DateTime(1970,05,04); 
+            
+            try
+            {
+                e1.TimeTravel(new DateTime(1999, 12, 31) ) ;
+                e1.TimeTravel(new DateTime(1950, 12, 25) ) ;
+            }
+            catch (PersonException ex)
+            {
+                WriteLine(ex.Message) ;
+            }
+
+            //validate email
+            string email1 = "pamela@test.com";
+            string email2 = "ian&test.com";
+            WriteLine("{0} is a valid e-mail address: {1}",
+            arg0: email1,
+            arg1: StringExtensions. IsValidEmail(email1) ) ;
+            WriteLine("{0} is a valid e-mail address: {1}",
+            arg0: email2,
+            arg1: StringExtensions. IsValidEmail(email2) ) ;
 
         }
     }
