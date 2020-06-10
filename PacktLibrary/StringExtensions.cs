@@ -2,9 +2,9 @@ using System;
 using System.Text.RegularExpressions;
 namespace Packt.Shared
 {
-    public class StringExtensions
+    public static class StringExtensions
     {
-        public static bool IsValidEmail(string input)
+        public static bool IsValidEmail(this string input)
         {
             // use simple regular expression to check
             // that the input string is a valid email
