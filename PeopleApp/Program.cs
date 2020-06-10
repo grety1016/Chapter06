@@ -138,17 +138,7 @@ namespace Packt.Shared
             var vec3 = vec1 + vec2;
             WriteLine($"({vec1.X}, {vec1.Y}) + ({vec2.X}, {vec2.Y}) =({vec3.X}, {vec3.Y}) ") ;
            
-                                    
-            Animal a = new Animal() ;
-            try
-            {
-                // code that uses the Animal instance
-            }
-            finally
-            {
-                if (a != null) a.Dispose() ;
-            }
-
+           
             //inheriting class
             Person john2 = new Employee()
             {
@@ -158,13 +148,28 @@ namespace Packt.Shared
             Employee john = new Employee
             {
                 Name = "john jones",
-                DateOfBirth = new DateTime(1997-10-16)
+                DateOfBirth = new DateTime(1997-10-16),
+                EmployeeCode = "123456"
+                
             };
             
-            john.WriteToConsole();
-            john2.WriteToConsole();
+             
 
-            WriteLine(john.ToString() ) ;
+            Employee aliceInEmployee = new Employee
+            { Name = "Alice", EmployeeCode = "AA123" };
+            Person aliceInPerson = aliceInEmployee;
+            aliceInEmployee. WriteToConsole() ;
+            aliceInPerson. WriteToConsole() ;
+            WriteLine(aliceInEmployee.ToString() ) ;
+            WriteLine(aliceInPerson.ToString() ) ;
+
+            
+            if (aliceInPerson is Employee)
+            {
+                WriteLine($"{nameof(aliceInPerson) } IS an Employee") ;
+                Employee explicitAlice = (Employee) aliceInPerson;
+                // safely do something with explicitAlice
+            }
 
         }
     }

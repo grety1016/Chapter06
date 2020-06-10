@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Chapter06\\PeopleApp\\PeopleApp.csproj": {}
+    "C:\\Users\\Grety\\Desktop\\Chapter06\\PeopleApp\\PeopleApp.csproj": {}
   },
   "projects": {
-    "D:\\Chapter06\\PacktLibrary\\PacktLibrary.csproj": {
+    "C:\\Users\\Grety\\Desktop\\Chapter06\\PacktLibrary\\PacktLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Chapter06\\PacktLibrary\\PacktLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\Grety\\Desktop\\Chapter06\\PacktLibrary\\PacktLibrary.csproj",
         "projectName": "PacktLibrary",
-        "projectPath": "D:\\Chapter06\\PacktLibrary\\PacktLibrary.csproj",
-        "packagesPath": "C:\\Users\\sylar\\.nuget\\packages\\",
-        "outputPath": "D:\\Chapter06\\PacktLibrary\\obj\\",
+        "projectPath": "C:\\Users\\Grety\\Desktop\\Chapter06\\PacktLibrary\\PacktLibrary.csproj",
+        "packagesPath": "C:\\Users\\Grety\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Grety\\Desktop\\Chapter06\\PacktLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\sylar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Grety\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,24 +55,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Chapter06\\PeopleApp\\PeopleApp.csproj": {
+    "C:\\Users\\Grety\\Desktop\\Chapter06\\PeopleApp\\PeopleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Chapter06\\PeopleApp\\PeopleApp.csproj",
+        "projectUniqueName": "C:\\Users\\Grety\\Desktop\\Chapter06\\PeopleApp\\PeopleApp.csproj",
         "projectName": "PeopleApp",
-        "projectPath": "D:\\Chapter06\\PeopleApp\\PeopleApp.csproj",
-        "packagesPath": "C:\\Users\\sylar\\.nuget\\packages\\",
-        "outputPath": "D:\\Chapter06\\PeopleApp\\obj\\",
+        "projectPath": "C:\\Users\\Grety\\Desktop\\Chapter06\\PeopleApp\\PeopleApp.csproj",
+        "packagesPath": "C:\\Users\\Grety\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Grety\\Desktop\\Chapter06\\PeopleApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\sylar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Grety\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -85,8 +85,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Chapter06\\PacktLibrary\\PacktLibrary.csproj": {
-                "projectPath": "D:\\Chapter06\\PacktLibrary\\PacktLibrary.csproj"
+              "C:\\Users\\Grety\\Desktop\\Chapter06\\PacktLibrary\\PacktLibrary.csproj": {
+                "projectPath": "C:\\Users\\Grety\\Desktop\\Chapter06\\PacktLibrary\\PacktLibrary.csproj"
               }
             }
           }
@@ -114,7 +114,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
